@@ -14,6 +14,7 @@
 		72BC25DD1CBA461800EA34CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72BC25DB1CBA461800EA34CD /* LaunchScreen.storyboard */; };
 		72BC25E81CBA461900EA34CD /* deviceInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BC25E71CBA461900EA34CD /* deviceInfoTests.swift */; };
 		72BC25F31CBA461900EA34CD /* deviceInfoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BC25F21CBA461900EA34CD /* deviceInfoUITests.swift */; };
+		72BC26041CBBDE8E00EA34CD /* HandleSystemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BC26031CBBDE8E00EA34CD /* HandleSystemInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		72BC25EE1CBA461900EA34CD /* deviceInfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = deviceInfoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72BC25F21CBA461900EA34CD /* deviceInfoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deviceInfoUITests.swift; sourceTree = "<group>"; };
 		72BC25F41CBA461900EA34CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72BC26031CBBDE8E00EA34CD /* HandleSystemInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandleSystemInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				72BC25D21CBA461800EA34CD /* AppDelegate.swift */,
 				72BC25D41CBA461800EA34CD /* ViewController.swift */,
+				72BC26031CBBDE8E00EA34CD /* HandleSystemInfo.swift */,
 				72BC25D61CBA461800EA34CD /* Main.storyboard */,
 				72BC25D91CBA461800EA34CD /* Assets.xcassets */,
 				72BC25DB1CBA461800EA34CD /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72BC25D51CBA461800EA34CD /* ViewController.swift in Sources */,
+				72BC26041CBBDE8E00EA34CD /* HandleSystemInfo.swift in Sources */,
 				72BC25D31CBA461800EA34CD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
