@@ -23,14 +23,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    func setSystemInfo(label: UILabel) {
+    func setSystemInfo(_ label: UILabel) {
         var text = ""
-        text.appendContentsOf("端末名: " + HandleSystemInfo.getDeviceName() + "\n")
-        text.appendContentsOf("OSバージョン: " + HandleSystemInfo.getDeviceVersion() + "\n")
-        text.appendContentsOf("MACアドレス: " + HandleSystemInfo.getMACAddress() + "\n")
-        text.appendContentsOf("キャリア: " + HandleSystemInfo.getSIMServiceProvider() + "\n")
-        text.appendContentsOf("point: " + HandleSystemInfo.getDisplayPoint() + "\n")
-        text.appendContentsOf("pixel: " + HandleSystemInfo.getDisplayPixel() + "\n")
+        text.append("端末名: " + HandleSystemInfo.getDeviceName() + "\n")
+        text.append("OSバージョン: " + HandleSystemInfo.getDeviceVersion() + "\n")
+        text.append("MACアドレス: " + HandleSystemInfo.getMACAddress() + "\n")
+        text.append("キャリア: " + HandleSystemInfo.getSIMServiceProvider() + "\n")
+        text.append("point: " + HandleSystemInfo.getDisplayPoint() + "\n")
+        text.append("pixel: " + HandleSystemInfo.getDisplayPixel() + "\n")
 
         label.numberOfLines = 10
 

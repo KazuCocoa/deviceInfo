@@ -12,15 +12,15 @@ import CoreTelephony
 class HandleSystemInfo {
 
     static func getDeviceName() -> String {
-        return UIDevice.currentDevice().systemName
+        return UIDevice.current.systemName
     }
 
     static func getDeviceVersion() -> String {
-        return UIDevice.currentDevice().systemVersion
+        return UIDevice.current.systemVersion
     }
 
     static func getMACAddress() -> String {
-        return UIDevice.currentDevice().identifierForVendor?.UUIDString ?? ""
+        return UIDevice.current.identifierForVendor?.uuidString ?? ""
     }
 
     static func getSIMServiceProvider() -> String {
@@ -28,12 +28,12 @@ class HandleSystemInfo {
     }
 
     static func getDisplayPoint() -> String {
-        let screen = UIScreen.mainScreen().bounds.size
+        let screen = UIScreen.main.bounds.size
         return "\(Int(screen.width))x\(Int(screen.height))"
     }
 
     static func getDisplayPixel() -> String {
-        let wihdow = UIScreen.mainScreen().nativeBounds.size
+        let wihdow = UIScreen.main.nativeBounds.size
         return "\(Int(wihdow.width))x\(Int(wihdow.height))"
     }
 }

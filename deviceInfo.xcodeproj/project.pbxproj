@@ -197,15 +197,18 @@
 					72BC25CE1CBA461800EA34CD = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 47PCFA586Q;
+						LastSwiftMigration = 0810;
 					};
 					72BC25E21CBA461900EA34CD = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 47PCFA586Q;
+						LastSwiftMigration = 0810;
 						TestTargetID = 72BC25CE1CBA461800EA34CD;
 					};
 					72BC25ED1CBA461900EA34CD = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 47PCFA586Q;
+						LastSwiftMigration = 0810;
 						TestTargetID = 72BC25CE1CBA461800EA34CD;
 					};
 				};
@@ -412,6 +415,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kazucocoa.deviceInfo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -423,6 +427,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kazucocoa.deviceInfo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -434,6 +439,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kazucocoa.deviceInfoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/deviceInfo.app/deviceInfo";
 			};
 			name = Debug;
@@ -446,6 +452,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kazucocoa.deviceInfoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/deviceInfo.app/deviceInfo";
 			};
 			name = Release;
@@ -457,6 +464,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kazucocoa.deviceInfoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = deviceInfo;
 			};
 			name = Debug;
@@ -468,6 +476,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kazucocoa.deviceInfoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = deviceInfo;
 			};
 			name = Release;
@@ -491,6 +500,7 @@
 				72BC25F91CBA461900EA34CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		72BC25FA1CBA461900EA34CD /* Build configuration list for PBXNativeTarget "deviceInfoTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +509,7 @@
 				72BC25FC1CBA461900EA34CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		72BC25FD1CBA461900EA34CD /* Build configuration list for PBXNativeTarget "deviceInfoUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +518,7 @@
 				72BC25FF1CBA461900EA34CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
